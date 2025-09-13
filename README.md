@@ -9,10 +9,6 @@ Think of it like a bookmark bar inside your editor.
 
 ## 💡 What it's used for
 
-### Quick Launch Apps & Tools
-- Open Chrome, Terminal, Spotify, Figma, or any local app with one click
-- Jump into your dev scripts or tools without leaving VSCode
-
 ### Navigate Files & Folders
 - Pin your most-used projects, config folders, or docs
 - Clicking an icon opens the file/folder in VSCode or your OS file explorer
