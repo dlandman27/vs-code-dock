@@ -1,5 +1,4 @@
 # VSCode Dock
-<img width="536" height="824" alt="ChatGPT Image Sep 13, 2025, 09_11_46 AM" src="https://github.com/user-attachments/assets/b20e2f65-2950-4f5d-ae8b-64553ea19ad7" />
 <img width="743" height="21" alt="image" src="https://github.com/user-attachments/assets/de002a7e-0857-4400-b297-f9daa9c58cbb" />
 
 A status bar dock for VSCode where you can pin icons, folders, files, and links. Think of it like a bookmark bar inside your editor.
