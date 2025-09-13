@@ -4,7 +4,6 @@
   "description": "A status bar dock for VSCode where you can pin icons, folders, files, and links",
   "version": "0.1.0",
   "publisher": "your-publisher-name",
-  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.74.0"
   },
