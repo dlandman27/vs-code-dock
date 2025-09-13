@@ -1,0 +1,125 @@
+{
+  "name": "vscode-dock",
+  "displayName": "VSCode Dock",
+  "description": "A status bar dock for VSCode where you can pin icons, folders, files, and links",
+  "version": "0.1.0",
+  "publisher": "your-publisher-name",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other",
+    "Productivity"
+  ],
+  "keywords": [
+    "dock",
+    "shortcuts",
+    "bookmarks",
+    "productivity",
+    "status-bar",
+    "launcher",
+    "quick-access"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/vscode-dock.git"
+  },
+  "homepage": "https://github.com/your-username/vscode-dock#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/vscode-dock/issues"
+  },
+  "license": "MIT",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "menus": {
+      "statusBar/context": [
+        {
+          "command": "vscode-dock.showItemContextMenu",
+          "when": "statusBarItem == vscode-dock.item",
+          "group": "vscode-dock"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "vscode-dock.addItem",
+        "title": "Add Item to Dock",
+        "category": "VSCode Dock"
+      },
+      {
+        "command": "vscode-dock.addFolder",
+        "title": "Add Folder to Dock",
+        "category": "VSCode Dock"
+      },
+      {
+        "command": "vscode-dock.importChromeBookmarks",
+        "title": "Import Chrome Bookmarks",
+        "category": "VSCode Dock"
+      },
+      {
+        "command": "vscode-dock.configure",
+        "title": "Configure Dock",
+        "category": "VSCode Dock"
+      },
+      {
+        "command": "vscode-dock.manageItems",
+        "title": "Manage Dock Items",
+        "category": "VSCode Dock"
+      },
+      {
+        "command": "vscode-dock.editItem",
+        "title": "Edit Dock Item",
+        "category": "VSCode Dock"
+      },
+      {
+        "command": "vscode-dock.removeItem",
+        "title": "Remove from Dock",
+        "category": "VSCode Dock"
+      },
+      {
+        "command": "vscode-dock.showItemContextMenu",
+        "title": "Show Item Context Menu",
+        "category": "VSCode Dock"
+      }
+    ],
+    "configuration": {
+      "title": "VSCode Dock",
+      "properties": {
+        "vscode-dock.items": {
+          "type": "array",
+          "default": [],
+          "description": "Dock items configuration"
+        },
+        "vscode-dock.showIcons": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show icons in dock items"
+        },
+        "vscode-dock.maxItems": {
+          "type": "number",
+          "default": 10,
+          "description": "Maximum number of items to show in dock"
+        },
+        "vscode-dock.showTitles": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show titles alongside icons in dock items"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.4"
+  }
+}

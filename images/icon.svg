@@ -1,0 +1,40 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" rx="20" fill="#1e1e1e"/>
+  
+  <!-- Dock base -->
+  <rect x="10" y="90" width="108" height="28" rx="14" fill="#2d2d30"/>
+  
+  <!-- Dock items -->
+  <!-- Terminal icon -->
+  <rect x="20" y="100" width="12" height="8" rx="2" fill="#007ACC"/>
+  
+  <!-- File icon -->
+  <rect x="38" y="100" width="8" height="8" rx="1" fill="#28A745"/>
+  <rect x="40" y="102" width="4" height="1" fill="#ffffff"/>
+  <rect x="40" y="104" width="4" height="1" fill="#ffffff"/>
+  <rect x="40" y="106" width="3" height="1" fill="#ffffff"/>
+  
+  <!-- Folder icon -->
+  <rect x="52" y="100" width="10" height="8" rx="1" fill="#FFC107"/>
+  <rect x="52" y="100" width="6" height="3" rx="1" fill="#FF8F00"/>
+  
+  <!-- Globe icon -->
+  <circle cx="70" cy="104" r="4" fill="none" stroke="#E83E8C" stroke-width="1"/>
+  <path d="M 66 104 Q 70 100 74 104 Q 70 108 66 104" fill="none" stroke="#E83E8C" stroke-width="1"/>
+  <path d="M 70 100 Q 66 104 70 108 Q 74 104 70 100" fill="none" stroke="#E83E8C" stroke-width="1"/>
+  
+  <!-- Plus button -->
+  <circle cx="90" cy="104" r="5" fill="#6F42C1"/>
+  <rect x="88" y="101" width="4" height="6" fill="#ffffff"/>
+  <rect x="86" y="103" width="8" height="2" fill="#ffffff"/>
+  
+  <!-- VSCode logo element -->
+  <rect x="50" y="20" width="28" height="28" rx="4" fill="#007ACC"/>
+  <rect x="52" y="22" width="24" height="24" rx="2" fill="#1e1e1e"/>
+  <rect x="54" y="24" width="20" height="20" rx="1" fill="#007ACC"/>
+  <rect x="56" y="26" width="16" height="16" rx="1" fill="#1e1e1e"/>
+  <rect x="58" y="28" width="12" height="12" rx="1" fill="#007ACC"/>
+  <rect x="60" y="30" width="8" height="8" rx="1" fill="#1e1e1e"/>
+  <rect x="62" y="32" width="4" height="4" rx="1" fill="#007ACC"/>
+</svg>
