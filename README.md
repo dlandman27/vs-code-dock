@@ -49,10 +49,34 @@ Think of it like a bookmark bar inside your editor.
 
 ## 🚀 Getting Started
 
-1. Install the extension
-2. The dock will appear in your status bar with some default items
-3. Click the `+` button to add new items
-4. Use the Command Palette (`Ctrl+Shift+P`) and search for "VSCode Dock" to access configuration options
+### Installation
+
+**Option 1: Download from GitHub Releases**
+1. Go to [Releases](https://github.com/your-username/vscode-dock/releases)
+2. Download the release tagged `latest` (e.g., `vscode-dock-0.1.0.vsix`)
+3. Install to VS Code using one of these methods:
+
+   **Method A: Command Line**
+   ```bash
+   code --install-extension vscode-dock-0.1.0.vsix
+   ```
+
+   **Method B: VS Code GUI**
+   - Open VS Code
+   - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open Command Palette
+   - Type "Extensions: Install from VSIX..." and select it
+   - Navigate to and select the downloaded `.vsix` file
+
+**Option 2: VS Code Marketplace** (if published)
+1. Open VS Code
+2. Go to Extensions (`Ctrl+Shift+X`)
+3. Search for "VSCode Dock"
+4. Click Install
+
+### First Steps
+1. The dock will appear in your status bar with some default items
+2. Click the `+` button to add new items
+3. Use the Command Palette (`Ctrl+Shift+P`) and search for "VSCode Dock" to access configuration options
 
 ## 🛠️ Managing Your Dock
 
