@@ -1,5 +1,6 @@
 # VSCode Dock
 <img src="images/vscode dock-banner.png" alt="VSCode Dock Banner" />
+<img width="743" height="21" alt="image" src="https://github.com/user-attachments/assets/de002a7e-0857-4400-b297-f9daa9c58cbb" />
 
 A status bar dock for VSCode where you can pin icons, folders, files, and links. Think of it like a bookmark bar inside your editor.
 
