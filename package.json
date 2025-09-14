@@ -3,13 +3,13 @@
   "displayName": "VSCode Dock",
   "description": "A status bar dock for VSCode where you can pin icons, folders, files, and links",
   "version": "0.1.0",
-  "publisher": "your-publisher-name",
+  "publisher": "dlandman27",
+  "icon": "images/vscode-dock.png",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
-    "Other",
-    "Productivity"
+    "Other"
   ],
   "keywords": [
     "dock",
@@ -22,11 +22,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/vscode-dock.git"
+    "url": "https://github.com/dlandman27/vs-code-dock.git"
   },
-  "homepage": "https://github.com/your-username/vscode-dock#readme",
+  "homepage": "https://github.com/dlandman27/vs-code-dock#readme",
   "bugs": {
-    "url": "https://github.com/your-username/vscode-dock/issues"
+    "url": "https://github.com/dlandman27/vs-code-dock/issues"
   },
   "license": "MIT",
   "activationEvents": [
